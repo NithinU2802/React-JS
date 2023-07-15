@@ -39,6 +39,24 @@ provide design to the website.
                             - Only the Necessary file is transfer in the form of JSON file and its 
     rendered inside html elements. So, there is no required to reload the page.
 
+# Normally an browser manuplate DOM
+
+    JavaScript:
+
+        <script>
+            const app=document.getElementById('app');
+            const header=document.createElement('h1');
+            const headerContent=document.createTextNode{
+                "HI..! I am Nithin"
+            };
+            header.appendChild(headerContent);
+            app.appendChild(headerContent);
+        </script>
+
+    Normally we write a code for make element by above operation as we move to react make
+easy to write code.
+
+
 #   Add React to Website
 
     Without installing node or npm modules we can add React to our website using below script
@@ -46,4 +64,13 @@ provide design to the website.
         <script src="https://unpkg.com/react@18/umd/react.development.js" crossorgin></script>
         <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorgin></script>
 
-    
+
+# JSX - JavaScript XML 
+
+    To Write HTML in JavaScript which .jsx file plays major role for the react. To configure we need
+        - React Js
+        - React Js DOM
+        - Babel
+
+    Imperative Process - Not to rewrite the code.
+    npm - Node Package Manager.
