@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+ES6 in React js?
+	ES6 stands for ECMAScript 6. Which was created to standardize javascript, and 
+ES6 is the 6th version of ECMAScript published in 2015.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Prerequired things:
 
-## Available Scripts
+1. Classes- A class is a type of functions, instead of using function like js, here
+we use class and the properties are assigned inside constructor().
 
-In the project directory, you can run:
+2. Arrow Functions - Which makes us to create functions easier. Eg: hello=()=>{ 
+    return "Hello World!"; }, hello=()=>"Hello World!".
 
-### `npm start`
+3. Variables - uses var,let and cons keywords to initialize variable which can be 
+done. var - function scope, let - block scope and cons - block scope immutable.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Array Methods - There are man js array methds. Map is one of the powerful method 
+which allows us to run a function on each item return new array as result.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. Destructuring - makes easy to extract only what is needed from the arry. Eg: To 
+make sandwich we take required things from fridge not every things.
 
-### `npm test`
+6. Spread Operator - Allows us to quickly copy all existing part of array to another array.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+7. Modules - Allow us to break up the code into seperate lines.This makes it easier 
+to maintain the code-base. ES Modules rely on the import and export statements.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+8. Ternary Operator - Which simplified the condition of if/else by 
+syntax: condition?<expression if true>:<expression if false>.

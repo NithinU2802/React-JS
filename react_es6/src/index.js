@@ -1,5 +1,7 @@
+// 7. Module - Imported
 import React, { Component, useState } from 'react';
 import ReactDOM from 'react-dom/client';
+import Done from './App';
 
 // 1. Classes
 class WelcomeMessage extends Component {
@@ -44,13 +46,22 @@ const FeaturesDemo = () => {
   const numbers = [1, 2, 3, 4, 5];
   const doubledNumbers = numbers.map(num => num * 2);
 
+  const update=()=>{
+    functionScoped='I am functioned';
+    blockScoped='I am blocked';
+  }
+  
+
+  const multiple=()=>{
+    update();
+    setCounter(counter+1);
+  }
+
   // 5. Destructuring
   const [first, second, third] = numbers;
 
   // 6. Spread Operator
   const moreNumbers = [...numbers, 6, 7, 8];
-
-  // 7. Modules (React import at the top)
 
   // 8. Ternary Operator
   const isEven = counter % 2 === 0;
@@ -65,10 +76,12 @@ const FeaturesDemo = () => {
       <p>Destructured Numbers: {first}, {second}, {third}</p>
       <p>More Numbers: {moreNumbers.join(', ')}</p>
       <p>Counter is {isEven ? 'Even' : 'Odd'}</p>
-      <button onClick={() => setCounter(counter + 1)}>Increment Counter</button>
+      <button onClick={multiple}>Increment Counter</button>
     </div>
   );
 }
+
+// 7. Export is the keyword to return component expressed in App.js
 
 // Main App Component
 const App = () => (
@@ -81,3 +94,4 @@ const App = () => (
 // Render the App
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
+// root.render(<Done />);
