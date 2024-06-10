@@ -2,7 +2,7 @@
 
     Commands to configure the project 
 
-        npx create-react-app spart
+        npx create-react-app spark
 
 
     To run the project
